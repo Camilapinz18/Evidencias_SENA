@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T18:26:17.932Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="0kVR4RZMqlflF-P_Zrxf" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-19T18:30:06.777Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="G6aiQjMqNICv9P_7PSqJ" version="20.3.2" type="github" pages="2">
   <diagram id="lW57b-TwLnBvwgSmgEpE" name="Página-1">
-    <mxGraphModel dx="1564" dy="1965" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2576" dy="1975" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RbNfvxYKgdoixWUjjS1l-339" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-818" y="817" width="729" height="299" as="geometry" />
+        </mxCell>
         <mxCell id="X1P7PTGHwS4XphQ649KA-1" value="Empleado" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="49" width="180" height="280" as="geometry" />
         </mxCell>
@@ -1992,7 +1995,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RbNfvxYKgdoixWUjjS1l-213" value="Rockola" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="-786" y="733" width="180" height="130" as="geometry" />
+          <mxGeometry x="-796" y="851" width="180" height="130" as="geometry" />
         </mxCell>
         <mxCell id="RbNfvxYKgdoixWUjjS1l-214" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="RbNfvxYKgdoixWUjjS1l-213">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -2034,7 +2037,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RbNfvxYKgdoixWUjjS1l-226" value="Musica" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="-384" y="726" width="180" height="250" as="geometry" />
+          <mxGeometry x="-315" y="851" width="180" height="250" as="geometry" />
         </mxCell>
         <mxCell id="RbNfvxYKgdoixWUjjS1l-227" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="RbNfvxYKgdoixWUjjS1l-226">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -2128,7 +2131,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RbNfvxYKgdoixWUjjS1l-248" value="MusicaRockola" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="-720" y="931" width="180" height="100" as="geometry" />
+          <mxGeometry x="-555" y="873" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="RbNfvxYKgdoixWUjjS1l-249" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="RbNfvxYKgdoixWUjjS1l-248">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -2158,14 +2161,14 @@
         </mxCell>
         <mxCell id="RbNfvxYKgdoixWUjjS1l-265" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RbNfvxYKgdoixWUjjS1l-261" target="RbNfvxYKgdoixWUjjS1l-227">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="-557" y="967" as="sourcePoint" />
-            <mxPoint x="-457" y="867" as="targetPoint" />
+            <mxPoint x="-569" y="1085" as="sourcePoint" />
+            <mxPoint x="-469" y="985" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RbNfvxYKgdoixWUjjS1l-266" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RbNfvxYKgdoixWUjjS1l-249" target="RbNfvxYKgdoixWUjjS1l-214">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="-557" y="967" as="sourcePoint" />
-            <mxPoint x="-457" y="867" as="targetPoint" />
+            <mxPoint x="-569" y="1085" as="sourcePoint" />
+            <mxPoint x="-469" y="985" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RbNfvxYKgdoixWUjjS1l-267" value="Pedido" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
