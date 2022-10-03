@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8' ?>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Mon Oct 03 10:44:29 COT 2022'>
+  <XMI.header>    <XMI.documentation>
+      <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
+      <XMI.exporterVersion>0.35.1(6) revised on $Date: 2012-12-30 14:06:01 +0100 (Sun, 30 Dec 2012) $ </XMI.exporterVersion>
+    </XMI.documentation>
+    <XMI.metamodel xmi.name="UML" xmi.version="1.4"/></XMI.header>
+  <XMI.content>
+    <UML:TaggedValue xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D12'
+      isSpecification = 'false'>
+      <UML:TaggedValue.dataValue>true</UML:TaggedValue.dataValue>
+      <UML:TaggedValue.type>
+        <UML:TagDefinition xmi.idref = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D0F'/>
+      </UML:TaggedValue.type>
+    </UML:TaggedValue>
+    <UML:TaggedValue xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D13'
+      isSpecification = 'false'>
+      <UML:TaggedValue.dataValue>true</UML:TaggedValue.dataValue>
+      <UML:TaggedValue.type>
+        <UML:TagDefinition xmi.idref = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D0F'/>
+      </UML:TaggedValue.type>
+    </UML:TaggedValue>
+    <UML:TaggedValue xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D14'
+      isSpecification = 'false'>
+      <UML:TaggedValue.dataValue>true</UML:TaggedValue.dataValue>
+      <UML:TaggedValue.type>
+        <UML:TagDefinition xmi.idref = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D0F'/>
+      </UML:TaggedValue.type>
+    </UML:TaggedValue>
+    <UML:TaggedValue xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D15'
+      isSpecification = 'false'>
+      <UML:TaggedValue.dataValue>true</UML:TaggedValue.dataValue>
+      <UML:TaggedValue.type>
+        <UML:TagDefinition xmi.idref = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D0F'/>
+      </UML:TaggedValue.type>
+    </UML:TaggedValue>
+    <UML:TaggedValue xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D16'
+      isSpecification = 'false'>
+      <UML:TaggedValue.dataValue>true</UML:TaggedValue.dataValue>
+      <UML:TaggedValue.type>
+        <UML:TagDefinition xmi.idref = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D0F'/>
+      </UML:TaggedValue.type>
+    </UML:TaggedValue>
+    <UML:TagDefinition xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D0F'
+      name = 'pointer' isSpecification = 'false'>
+      <UML:TagDefinition.multiplicity>
+        <UML:Multiplicity xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D11'>
+          <UML:Multiplicity.range>
+            <UML:MultiplicityRange xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D10'
+              lower = '0' upper = '0'/>
+          </UML:Multiplicity.range>
+        </UML:Multiplicity>
+      </UML:TagDefinition.multiplicity>
+    </UML:TagDefinition>
+    <UML:Association xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D19'
+      name = '' isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'>
+      <UML:Association.connection>
+        <UML:AssociationEnd xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D1A'
+          name = '1' visibility = 'public' isSpecification = 'false' isNavigable = 'false'
+          ordering = 'unordered' aggregation = 'none' targetScope = 'instance' changeability = 'changeable'>
+          <UML:AssociationEnd.participant>
+            <UML:Class href = 'file:/C:/Users/User/AppData/Local/Temp/zargo_model_3378046582663312708.xmi#-64--88-56-1--6b9e7ab8:1839598ead0:-8000:0000000000000866'/>
+          </UML:AssociationEnd.participant>
+        </UML:AssociationEnd>
+        <UML:AssociationEnd xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D1B'
+          name = '1' visibility = 'public' isSpecification = 'false' isNavigable = 'true'
+          ordering = 'unordered' aggregation = 'none' targetScope = 'instance' changeability = 'changeable'>
+          <UML:AssociationEnd.participant>
+            <UML:Class href = 'file:/C:/Users/User/AppData/Local/Temp/zargo_model_3378046582663312708.xmi#-64--88-56-1--78dbe828:18395d0d771:-8000:0000000000000A87'/>
+          </UML:AssociationEnd.participant>
+        </UML:AssociationEnd>
+      </UML:Association.connection>
+    </UML:Association>
+    <UML:Association xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D1C'
+      name = '' isSpecification = 'false' isRoot = 'false' isLeaf = 'false' isAbstract = 'false'>
+      <UML:Association.connection>
+        <UML:AssociationEnd xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D1D'
+          visibility = 'public' isSpecification = 'false' isNavigable = 'false' ordering = 'unordered'
+          aggregation = 'none' targetScope = 'instance' changeability = 'changeable'>
+          <UML:AssociationEnd.multiplicity>
+            <UML:Multiplicity xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D26'>
+              <UML:Multiplicity.range>
+                <UML:MultiplicityRange xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D25'
+                  lower = '0' upper = '0'/>
+              </UML:Multiplicity.range>
+            </UML:Multiplicity>
+          </UML:AssociationEnd.multiplicity>
+          <UML:AssociationEnd.participant>
+            <UML:Class href = 'file:/C:/Users/User/AppData/Local/Temp/zargo_model_3378046582663312708.xmi#-64--88-56-1--6b9e7ab8:1839598ead0:-8000:0000000000000866'/>
+          </UML:AssociationEnd.participant>
+        </UML:AssociationEnd>
+        <UML:AssociationEnd xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D1E'
+          visibility = 'public' isSpecification = 'false' isNavigable = 'true' ordering = 'unordered'
+          aggregation = 'none' targetScope = 'instance' changeability = 'changeable'>
+          <UML:AssociationEnd.multiplicity>
+            <UML:Multiplicity xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D20'>
+              <UML:Multiplicity.range>
+                <UML:MultiplicityRange xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D1F'
+                  lower = '1' upper = '1'/>
+              </UML:Multiplicity.range>
+            </UML:Multiplicity>
+          </UML:AssociationEnd.multiplicity>
+          <UML:AssociationEnd.participant>
+            <UML:Class href = 'file:/C:/Users/User/AppData/Local/Temp/zargo_model_3378046582663312708.xmi#-64--88-56-1--78dbe828:18395d0d771:-8000:0000000000000A87'/>
+          </UML:AssociationEnd.participant>
+        </UML:AssociationEnd>
+      </UML:Association.connection>
+    </UML:Association>
+    <UML:Multiplicity xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D18'>
+      <UML:Multiplicity.range>
+        <UML:MultiplicityRange xmi.id = '-64--88-56-1-2165bb25:1839e6255aa:-8000:0000000000000D17'
+          lower = '1' upper = '1'/>
+      </UML:Multiplicity.range>
+    </UML:Multiplicity>
+  </XMI.content>
+</XMI>
