@@ -9,15 +9,15 @@ import javafx.scene.paint.Stop;
 /**
  * tarea_2
  */
-public class tarea_2 {
+public class Solucion {
 
     /**
      * @param args
      */
     public static void main(String[] args) {
 
-        //Desarrollar un programa que permita calcular el área o perímetro de algunas figuras planas : 
-        /*
+        //Desarrollar un programa que permita calcular el área o perímetro de algunas figuras planas :
+
         int m;
         int figura = 0;
         float area;
@@ -42,7 +42,7 @@ public class tarea_2 {
                 JOptionPane.showMessageDialog(null,"Seleccione la figura a calcular. (Escriba el número correspondiente)");
                 figura = Integer.parseInt(JOptionPane.showInputDialog("1)Triángulo  2)Rectángulo  3)Cuadrado  4)Círculo"));
 
-                switch (figura) 
+                switch (figura)
                 {
                     case 1:
                         // Área tringulo:
@@ -66,7 +66,7 @@ public class tarea_2 {
                         area=(float) Math.pow(base, 2);
                         JOptionPane.showMessageDialog(null, "El área del cuadrado con lado " + base + ", es de: " + area);
                         break;
-                    
+
                     case 4:
                         //area circulo
                         radio = Float.parseFloat(JOptionPane.showInputDialog("Ingrese la medida del radio del círculo"));
@@ -80,7 +80,7 @@ public class tarea_2 {
 
                 }
             }
-            
+
             if(m==2) //Perimetros
             {
                 JOptionPane.showMessageDialog(null,"Seleccione la figura a calcular. (Escriba el número correspondiente)");
@@ -128,10 +128,10 @@ public class tarea_2 {
                         break;
 
 
-                        
+
                 }
             }
-        }*/
+        }
 
 
 
@@ -153,7 +153,7 @@ public class tarea_2 {
 
 
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        //Desarrollar un programa que permita almacenar las edades de un grupo de 10 personas en un vector de enteros y luego determine la cantidad de personas que son menores de edad, mayores de edad, cuántos adultos mayores, la edad más baja, la edad más alta y el promedio de edades ingresadas. Para el ejercicio anterior suponga que un adulto mayor debe tener una edad igual o superior a 60. Debe validar para cada ingreso que los valores estén en un rango entre 1 y 120 años. En caso de error deberá notificar y solicitar un nuevo valor. 
+        //Desarrollar un programa que permita almacenar las edades de un grupo de 10 personas en un vector de enteros y luego determine la cantidad de personas que son menores de edad, mayores de edad, cuántos adultos mayores, la edad más baja, la edad más alta y el promedio de edades ingresadas. Para el ejercicio anterior suponga que un adulto mayor debe tener una edad igual o superior a 60. Debe validar para cada ingreso que los valores estén en un rango entre 1 y 120 años. En caso de error deberá notificar y solicitar un nuevo valor.
         /*
         int[] edades= new int[10];
         int n; int m;
@@ -194,7 +194,7 @@ public class tarea_2 {
             }
 
         }
-      
+
         Arrays.sort(edades);
         promedio=promedio/10;
         JOptionPane.showMessageDialog(null, menores+" personas son menores de edad");
@@ -220,8 +220,8 @@ public class tarea_2 {
 
 
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        //Escriba  un  programa  que  lea  dos  vectores  de  números  enteros  ordenados  ascendentemente  y  luego produzca la lista ordenada de la mezcla de los dos, por ejemplo, si los dos arreglos tienen los números 1 3 6 9 17 y 2 4 10 17, respectivamente, la lista de números en la pantalla debe ser 1 2 3 4 6 9 10 17 17.  Limite los vectores a un tamaño de 5 y debe validar en cada ingreso que realmente se estén ingresando los datos de forma ascendente. 
-        /* 
+        //Escriba  un  programa  que  lea  dos  vectores  de  números  enteros  ordenados  ascendentemente  y  luego produzca la lista ordenada de la mezcla de los dos, por ejemplo, si los dos arreglos tienen los números 1 3 6 9 17 y 2 4 10 17, respectivamente, la lista de números en la pantalla debe ser 1 2 3 4 6 9 10 17 17.  Limite los vectores a un tamaño de 5 y debe validar en cada ingreso que realmente se estén ingresando los datos de forma ascendente.
+        /*
         int[] vector1= new int[5];
         int[] vector2=new int[5];
         int longitud=vector1.length+vector2.length;
@@ -233,7 +233,7 @@ public class tarea_2 {
 
         for(n=0;n<=4;n++)
         {
-            
+
             if(n==0)
             {
                 vector1[n]=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el número"));
@@ -243,9 +243,9 @@ public class tarea_2 {
                 vector1[n]=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el número"));
                 if(vector1[n]<vector1[n-1])
                 {
-                    JOptionPane.showMessageDialog(null,"Error! Ingrese numeros en orden ascendente (de menor a mayor)");        
-                    n--;           
-                }                 
+                    JOptionPane.showMessageDialog(null,"Error! Ingrese numeros en orden ascendente (de menor a mayor)");
+                    n--;
+                }
             }
         }
 
@@ -263,9 +263,9 @@ public class tarea_2 {
                 vector2[n]=Integer.parseInt(JOptionPane.showInputDialog("Ingrese el número"));
                 if(vector2[n]<vector2[n-1])
                 {
-                    JOptionPane.showMessageDialog(null,"Error! Ingrese numeros en orden ascendente (de menor a mayor)");        
-                    n--;           
-                }                 
+                    JOptionPane.showMessageDialog(null,"Error! Ingrese numeros en orden ascendente (de menor a mayor)");
+                    n--;
+                }
             }
         }
 
@@ -280,19 +280,19 @@ public class tarea_2 {
         */
 
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
+
+
+
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        //Una emisora con presencia en diferentes ciudades desea conocer el rating de canciones y cantantes más escuchados (sonados) en este semestre del año. Por lo tanto, se ha pedido a estudiantes del SENA del programa de tecnólogo en análisis y desarrollo de software desarrollar una solución que permita conocer la respuesta de 6 personas con relación a sus gustos musicales. Con fines administrativos y realizar una rifa entre las personas encuestadas, la emisora desea poder registrar  de las personas entrevistadas su nombre, número de identificación (cédula), fecha de nacimiento, correo electrónico, ciudad de residencia, ciudad de origen. Además, se deberá poder almacenar el artista y título de hasta 3 canciones favoritas en cada una de las personas que se ingrese, teniendo en cuenta lo anterior, se sugiere que la solución deberá mostrar un menú que permita las siguientes opciones: a. Agregar una persona con los datos que se listan anteriormente. b. Mostrar la información personal de una persona particular por medio de su posición en el vector. 
+        //Una emisora con presencia en diferentes ciudades desea conocer el rating de canciones y cantantes más escuchados (sonados) en este semestre del año. Por lo tanto, se ha pedido a estudiantes del SENA del programa de tecnólogo en análisis y desarrollo de software desarrollar una solución que permita conocer la respuesta de 6 personas con relación a sus gustos musicales. Con fines administrativos y realizar una rifa entre las personas encuestadas, la emisora desea poder registrar  de las personas entrevistadas su nombre, número de identificación (cédula), fecha de nacimiento, correo electrónico, ciudad de residencia, ciudad de origen. Además, se deberá poder almacenar el artista y título de hasta 3 canciones favoritas en cada una de las personas que se ingrese, teniendo en cuenta lo anterior, se sugiere que la solución deberá mostrar un menú que permita las siguientes opciones: a. Agregar una persona con los datos que se listan anteriormente. b. Mostrar la información personal de una persona particular por medio de su posición en el vector.
 
         /*
         Object tabla[][]= new Object[6][11];  //filas-cols
@@ -327,19 +327,19 @@ public class tarea_2 {
                     }
                     else //si no.. no se llena
                     {
-                        
+
                     }
                     if(x==5)
                     {
                         JOptionPane.showMessageDialog(null, "Ya no tienes almacenamiento disponible");
                         break;
-                    }    
-                }      
+                    }
+                }
             }
 
             if(opcion==2)
             {
-                
+
                 index=Integer.parseInt(JOptionPane.showInputDialog("Seleccione una posición de la tabla para ver su información (del 0 al 5)"));
                 if(index<0 || index>5)
                 {
@@ -357,6 +357,6 @@ public class tarea_2 {
 
 
 
-    
+
     }
 }
