@@ -1,0 +1,14 @@
+body{
+  background: var(--color-bg-light) ;
+  color: white;
+}
+
+*{
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+:root{
+  --color-bg-light: #272727;
+}

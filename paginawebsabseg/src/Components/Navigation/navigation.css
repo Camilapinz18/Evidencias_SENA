@@ -1,0 +1,11 @@
+.navigation_links{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    width: 40%;
+    margin: 60px 600px auto;
+}
+
+.link{
+    color: white;
+}
