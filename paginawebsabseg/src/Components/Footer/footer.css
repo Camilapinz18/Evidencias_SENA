@@ -1,0 +1,11 @@
+.footer_container{
+    background: var(--color-primary-dark);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.footer_container img{
+    width: 30%;
+    margin: 40px auto;
+}

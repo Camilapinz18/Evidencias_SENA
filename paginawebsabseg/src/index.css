@@ -11,4 +11,14 @@ body{
 
 :root{
   --color-bg-light: #272727;
+  --color-primary-dark: #0D0378;
+  --color-primary-light: #CB12CB;
+}
+
+.btn{
+  background: white;
+  color: var(--color-primary-dark);
+  border-radius: 12px;
+  font-weight: bolder;
+  padding: 8px 20px 8px 20px;
 }

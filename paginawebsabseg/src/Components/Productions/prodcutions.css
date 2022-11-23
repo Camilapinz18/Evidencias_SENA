@@ -1,0 +1,41 @@
+.productions_container{
+    display: grid;
+    border: 1px solid darkgoldenrod;
+    grid-template-columns: auto auto;
+    width: 85%;
+    gap: 2rem;
+    margin: 50px auto;
+}
+
+.production{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid aqua;
+    
+}
+
+.production_info{
+    border: 1px solid brown;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.production_info h2{
+    font-weight: bolder;
+    text-align: left;
+}
+
+.production_info h3, h4{
+    font-weight: lighter;
+}
+
+.btn_listen{
+    margin: 50px auto;
+}
+
+.production img{
+    width: 35%;
+}

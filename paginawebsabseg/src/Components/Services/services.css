@@ -1,0 +1,36 @@
+.services_container {
+
+    border: 1px solid firebrick;
+    width: 85%;
+}
+
+.service {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid tomato;
+}
+
+.service_info{
+    border: 1px solid pink;
+}
+
+.service_info h2{
+    width: max-content;
+}
+
+.service_info p{
+    width: fit-content;
+}
+
+.service_info h2{
+    border: 1px solid green;
+}
+
+.service_info img{
+
+    border: 1px solid green;
+}
+
+.imagen{
+
+}
