@@ -14,7 +14,7 @@ const Productions = () => {
                         <h1>Ready to die</h1>
                         <h3>The notorius big</h3>
                         <h4>2022</h4>
-                        <a href='' className='btn'>Escuchar</a>
+                        <a href='' className='btn btn_listen'>Escuchar</a>
                     </div>
                 </div>
 
@@ -24,7 +24,7 @@ const Productions = () => {
                         <h1>Old town</h1>
                         <h3>Wongtuek Band</h3>
                         <h4>2022</h4>
-                        <a href='https://www.youtube.com/' className='btn'>Escuchar</a>
+                        <a href='https://www.youtube.com/' className='btn btn_listen'>Escuchar</a>
                     </div>
                 </div>
 
@@ -44,7 +44,7 @@ const Productions = () => {
                         <h1>Help grips</h1>
                         <h3>Hands in hell</h3>
                         <h4>2021</h4>
-                        <a href='https://www.youtube.com/' className='btn'>Escuchar</a>
+                        <a href='https://www.youtube.com/' className='btn btn_listen'>Escuchar</a>
                     </div>
                 </div>
 

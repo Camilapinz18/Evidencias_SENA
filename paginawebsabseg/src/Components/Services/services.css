@@ -1,33 +1,56 @@
 .services_container {
 
-    border: 1px solid firebrick;
+   /* border: 1px solid firebrick;*/
     width: 85%;
+}
+
+.services_list{
+    border: 1px solid greenyellow;
 }
 
 .service {
     display: flex;
     flex-direction: row;
     border: 1px solid tomato;
+    margin: 40px auto;
+
 }
 
 .service_info{
     border: 1px solid pink;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 90px auto;
+    height: fit-content;
+
+
 }
 
 .service_info h2{
     width: max-content;
+
 }
 
 .service_info p{
     width: fit-content;
+    text-align: right;    
+    margin: 20px auto;
+    font-size: 20px;
+    border: 1px solid green;
 }
 
 .service_info h2{
-    border: 1px solid green;
+    border: 1px solid blue;
+    
 }
 
 .service_info img{
 
+    border: 1px solid green;
+}
+
+.btn_reserva{
     border: 1px solid green;
 }
 

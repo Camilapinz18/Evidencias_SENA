@@ -1,10 +1,14 @@
 .productions_container{
     display: grid;
-    border: 1px solid darkgoldenrod;
+    /*border: 1px solid darkgoldenrod;*/
     grid-template-columns: auto auto;
     width: 85%;
     gap: 2rem;
     margin: 50px auto;
+}
+
+.productions_container img{
+    /*border: 1px solid fuchsia;*/
 }
 
 .production{
@@ -12,28 +16,31 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 1px solid aqua;
-    
 }
 
 .production_info{
-    border: 1px solid brown;
+    /*border: 1px solid brown;*/
     display: flex;
     flex-direction: column;
-
+    margin: 0 100px 0 0;
 }
 
-.production_info h2{
+.production_info h1{
     font-weight: bolder;
     text-align: left;
 }
 
+.production_info h2{
+    font-weight: bolder;
+}
+
 .production_info h3, h4{
     font-weight: lighter;
+
 }
 
 .btn_listen{
-    margin: 50px auto;
+    margin: 20px 20px 0 0;
 }
 
 .production img{
